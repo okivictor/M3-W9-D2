@@ -1,0 +1,33 @@
+div:not(.child){
+    height: 150px;
+    width: 50%;
+  display: flex;
+ background: #ffffe6;
+ align-items: center;
+ justify-content: space-around;
+ border-radius: 60px;
+
+
+}
+
+div.child {
+    height: 50px;
+    width: 100px;
+    background-color: #f7d43c;
+    border-radius: 70px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+div.child1{
+    background-color: #f7d43c;
+    width: 170px;
+    height: 70px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+
+}
