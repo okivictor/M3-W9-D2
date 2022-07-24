@@ -1,4 +1,4 @@
-div:not(.child){
+div.parent{
     height: 150px;
     width: 50%;
   display: flex;
@@ -21,13 +21,25 @@ div.child {
 }
 
 div.child1{
-    background-color: #f7d43c;
+    background-color:#f7d43c;
     width: 170px;
     height: 70px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 img{
     height: 50px;
     width: 50px;
 
+}
+div.body{
+    display: flex;
+    background-color: #f7d43c;
+    align-items: center;
+}
+div.body2{
+    background-color: blue
 }
