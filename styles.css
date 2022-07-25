@@ -1,6 +1,6 @@
 div.parent{
     height: 150px;
-    width: 50%;
+    width: 100%;
   display: flex;
  background: #ffffe6;
  align-items: center;
@@ -11,35 +11,49 @@ div.parent{
 }
 
 div.child {
-    height: 50px;
-    width: 100px;
+    height: 70px;
+    width: 200px;
     background-color: #f7d43c;
     border-radius: 70px;
     overflow: hidden;
     text-align: center;
     
 }
-
-div.child1{
+/* --------shop div ---------*/
+div:nth-child(3){
     background-color:#f7d43c;
-    width: 170px;
-    height: 70px;
+    width: 270px;
+    height: 90px;
     border-radius: 60px;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-img{
+
+div:nth-child(3) img{
     height: 50px;
     width: 50px;
+}
+
+/* --------shop div ---------*/
+.product-card{
+    height: 300px;
+    width: 100%;
+    background-color:#ffffe6;
+    
+}
+.product-card img{
+height: 800px;
+width: 50%;
+background-color: blue;
+object-fit: contain;
+border-radius: 50px;
 
 }
+
 div.body{
     display: flex;
     background-color: #f7d43c;
     align-items: center;
-}
-div.body2{
-    background-color: blue
 }
