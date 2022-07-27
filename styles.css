@@ -16,26 +16,40 @@ div.child {
     background-color: #f7d43c;
     border-radius: 70px;
     overflow: hidden;
-    text-align: center;
-    
-    
+   text-align: center; 
+
 }
+
+
 /* --------shop div ---------*/
-div:nth-child(3){
+div.child:nth-child(3){
     background-color:#f7d43c;
     width: 270px;
     height: 90px;
     border-radius: 60px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    text-align: center;
+
+}
+div.child:nth-child(3) img{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    object-fit: contain;
+    
+
+}
+div.child:nth-child(3) div{
+   font-weight: bold;
+   height: 20%;
+   margin-right: 5px;
+   padding-right: 20px;
+   
+
 }
 
 
-div:nth-child(3) img{
-    height: 50px;
-    width: 50px;
-}
 
 /* --------shop div ---------*/
 .product-card{
@@ -43,8 +57,10 @@ div:nth-child(3) img{
     width: 20%;
     background-color:#f95f0d;
     object-fit: contain;
-    border-radius: 50px;
+    border-radius: 70px ;
     overflow: hidden;
+    margin-right: 4px;
+  
     
 
     
@@ -63,9 +79,42 @@ overflow: hidden;
 }
 
 div.card-content{
-    background-color: #f7d43c;
+    background-color: #f7edc1;
     width: 100%;
     height: 150px;
     object-fit: contain;
     overflow: hidden;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+button{
+    border-radius: 50px;
+    width: 60%;
+    height: 30px;
+    background-color: #f7e38e;
+    border: 0;
+    margin-top: 1px;
+}
+
+
+div.product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+div.product-type > div{
+    font-weight: bold;
+}
+
+
+
+div.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
